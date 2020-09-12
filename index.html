@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Skill Safari|social media</title>
+<!--- BS css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!---font awesome-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!---LIGHTBOX CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous"/>
+</head>
+
+
+
+<body>
+   <div class="container pt-2 col-sm-6 col-md-8 col-xl-10">
+     <text class="text-dark" style="font-weight:700;font-size:25px;color:black">Social Media Dashboard</text>
+      <p style="font-weight:700;color:gray">Total Followers:23,004
+      </p>
+
+       <!------dark mode checkbox-->
+    <div class="switch text-secondary" style=" margin-top:-1cm;margin-right:5cm;font-size:20px;font-weight:700;" onclick="myFunction()">
+      <label>
+          <span class="lever float-md-left" style="margin-left:20cm;">Dark mode</span> 
+      </label>
+    </div>
+       <!-----card deck-->
+      <div class="card-deck">
+        <div class="card text-center py-1" style="border: medium solid hsl(208, 92%, 53%);border-bottom:0;border-right:0; border-left:0">
+          <div class="card-body">
+            <i class="fa fa-facebook-official fa-xl pl-4 pt-2" style="color:hsl(208, 92%, 53%)" aria-hidden="true">
+            <text class="text-dark">@nathanf</text></i>
+            <h4 class="card-title">1987</h4>
+            <text1>FOLLOWERS</text1>
+            <br/>
+            <i class="fa fa-caret-up text-success" aria-hidden="true">12 Today</i>
+          </div>
+        </div>
+       
+       <div class="card text-center py-3" style="border: medium solid hsl(208, 92%, 53%);border-bottom:0;border-right:0;
+       border-left:0">
+        <div class="card-body ">
+          <i class="fa fa-twitter l pl-4 fa-xl pt-2" style="color:hsl(203, 89%, 53%)" aria-hidden="true">
+            <text class="text-dark">@nathanf</text></i>
+            <h4 class="card-title">1044</h4>
+            <text1>FOLLOWERS</text1>
+            <br/>
+            <i class="fa fa-caret-up text-success" aria-hidden="true">99 Today</i>
+         </div>
+       </div>
+       
+       <div class="card text-center py-3" style="border: medium solid hsl(329, 70%, 58%);border-bottom:0;border-right:0;border-left:0">
+        <div class="card-body">
+          <i class="fa fa-instagram pl-4 fa-xl pt-2" style="color:hsl(329, 70%, 58%)" aria-hidden="true">
+            <text class="text-dark">@realnathanf</text></i>
+            <h4 class="card-title">11k</h4>
+            <text1>FOLLOWERS</text1>
+            <br/>
+            <i class="fa fa-caret-up text-success" aria-hidden="true">1099 Today</i>
+         </div>
+       </div>
+       
+       <div class="card text-center py-3" style="border: medium solid hsl(348, 97%, 39%);border-bottom:0;border-right:0;
+          border-left:0">
+        <div class="card-body">
+          <i class="fa fa-youtube-play pl-4 pt-2 fa-xl" style="color:hsl(348, 97%, 39%)" aria-hidden="true">
+            <text class="text-dark">Nathan F.</text></i>
+            <h4 class="card-title">8239</h4>
+            <text1>FOLLOWERS</text1>
+            <br/>
+            <i class="fa fa-caret-down text-danger" aria-hidden="true">144 Today</i>
+         </div>
+      </div>
+     </div>
+
+     <!------overview section-->
+     <div class="container1">
+        <text class="text-secondary">Overview-today</text>
+          <div class="card-deck mt-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-facebook-official fa-2x pl-4 pt-2 float-right" style="color:hsl(208, 92%, 53%)"aria-hidden="true"></i>
+              <h4 class="card-title">Page views</h4>
+              <p class="card-text">87
+                  <i class="fa fa-caret-up text-success float-right pt-4 pl-4" style="font-size:15px;font-weight:500"    aria-hidden="true">3%</i>
+              </p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-facebook-official fa-2x pl-4 pt-2 float-right" style="color:hsl(208, 92%, 53%)"aria-hidden="true"></i>
+              <h4 class="card-title">Likes</h4>
+              <p class="card-text">62
+                <i class="fa fa-caret-down text-danger align-right float-right pt-4" style="font-size:15px;" aria-hidden="true">2%</i>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-instagram fa-2x pl-4 pt-2 float-right" style="color:hsl(329, 70%, 58%)" aria-hidden="true"></i>
+              <h4 class="card-title">Likes</h4>
+              <p class="card-text">5462
+                <i class="fa fa-caret-down text-danger align-right float-right pt-4" style="font-size:15px;" aria-hidden="true">2%</i>
+              </p>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-instagram fa-2x pt-2 float-right" style="color:hsl(329, 70%, 58%)" aria-hidden="true"></i>
+              <h4 class="card-title">Profile views</h4>
+              <p class="card-text">52k
+                <i class="fa fa-caret-down text-danger align-right float-right pt-4" style="font-size:15px;" aria-hidden="true">2%</i>
+              </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      
+
+      <!----section2-->
+      <div class="container2 border-light">
+        <div class="card-deck mt-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-twitter pl-4 pt-2 float-right fa-2x" style="color:hsl(208, 92%, 53%)"aria-hidden="true"></i>
+              <h4 class="card-title">Retweets</h4>
+              <p class="card-text">117
+                  <i class="fa fa-caret-up text-success align-right float-right pt-4" style="font-size:12px;font-weight:500"    aria-hidden="true">303%</i>
+              </p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-twitter pl-4 pt-2 float-right fa-2x" style="color:hsl(208, 92%, 53%)"aria-hidden="true"></i>
+              <h4 class="card-title">Likes</h4>
+              <p class="card-text">507
+                <i class="fa fa-caret-up text-success align-right float-right pt-4" style="font-size:15px;" aria-hidden="true">553%</i>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-youtube-play pl-4 pt-2 float-right fa-2x" style="color:hsl(348, 97%, 39%)" aria-hidden="true"></i>
+              <h4 class="card-title">Likes</h4>
+              <p class="card-text">107
+                <i class="fa fa-caret-down text-danger align-right float-right pt-4" style="font-size:15px;" aria-hidden="true">19%</i>
+              </p>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-body">
+              <i class="fa fa-youtube-play pl-4 pt-2 float-right fa-2x" style="color:hsl(348, 97%, 39%)" aria-hidden="true"></i>
+              <h4 class="card-title">Total views</h4>
+              <p class="card-text">1407
+                <i class="fa fa-caret-down text-danger align-right float-right pt-4" style="font-size:15px;" aria-hidden="true">12%</i>
+              </p>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+</div>
+  
+  
+  
+    <!--BS Js-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+
+    <!--Custom css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script>
+      function myFunction() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+      </script>
+
+    
+  
+</body>
+</html>

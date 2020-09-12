@@ -1,0 +1,145 @@
+@ import url(https://fonts.google.com/specimen/Inter)
+.container1 {
+    padding-left: 16px;
+    padding-right:16px;
+    }
+.container2 {
+        padding-left: 16px;
+        padding-right:16px;
+        }
+ .container .card-deck .card{
+     border-radius:15px;
+    }
+.container1 .card-deck .card{
+    border-radius:15px;
+}
+body{ 
+        background-color: white;
+        color: black;
+      }
+button{
+    border-radius: 0.25cm;
+}
+@media (max-width: 360px) {
+    .container span{
+      float: left;
+      font-size:10px;
+      font-weight:200;
+      color:red;
+    }
+  }.container text1{
+    letter-spacing: 0.1em;
+}
+      
+.dark-mode {
+        background-color: hsl(230, 17%, 14%);
+}
+.dark-mode .container text {
+    color:rgb(224, 216, 216);
+}
+.dark-mode .container p {
+    color:hsl(228, 34%, 66%);
+}
+
+
+.dark-mode .container .card{
+    background-color:hsl(228, 28%, 20%);
+}
+.dark-mode .container .card h4{
+    color:hsl(228, 34%, 66%);
+}
+.dark-mode .container .card text{
+    color:hsl(0, 0%, 100%);
+}
+.dark-mode .container .card-deck .card text{
+    color:hsl(229, 28%, 74%);
+}
+.dark-mode .container1 .card{
+    background-color:hsl(228, 28%, 20%);
+}
+.dark-mode .container1 .card-title{
+    color:hsl(228, 34%, 66%);
+}
+.dark-mode .container1 .card-text{
+    color:hsl(0, 0%, 100%);
+}
+
+.dark-mode .container2 .card{
+    background-color:hsl(228, 28%, 20%);
+}
+.dark-mode .container2 .card-title{
+    color:hsl(228, 34%, 66%);
+}
+.dark-mode .container2 .card-text{
+    color:hsl(0, 0%, 100%);
+}
+
+
+      
+.container1 p{
+    color:rgb(46, 45, 45);
+    font-weight: bold;
+    font-size:30px;
+}
+.container1 h4{
+    font-size:12px;
+    font-weight: 700;
+    color:rgb(90, 86, 86);
+}
+
+.container2 {
+    padding-left: 16px;
+    padding-right:16px;
+    }
+    .container2 p{
+        color:rgb(46, 45, 45);
+        font-weight: bold;
+        font-size:30px;
+    }
+    .container2 h4{
+        font-size:12px;
+        font-weight: 700;
+        color:rgb(90, 86, 86);
+    }
+
+- Facebook: hsl(208, 92%, 53%)
+- Twitter: hsl(203, 89%, 53%)
+- Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
+- YouTube: hsl(348, 97%, 39%)
+
+#### Dark Theme
+
+- Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)
+
+#### Light Theme
+
+- Toggle: hsl(230, 22%, 74%)
+
+### Neutral
+
+#### Dark Theme
+
+- Very Dark Blue (BG): hsl(230, 17%, 14%)
+- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
+- Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
+- Desaturated Blue (Text): hsl(228, 34%, 66%)
+- White (Text): hsl(0, 0%, 100%)
+
+#### Light Theme
+
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%)
+
+## Typography
+
+### Body Copy
+
+- Font size (Overview Card Headings): 14px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
